@@ -1,0 +1,365 @@
+* {
+  padding: 0;
+  margin: 0;
+
+}
+
+.header {
+  width: 100%;
+  height: 100px;
+  display: block;
+  background-color: #333;
+}
+
+.inner_header {
+  width: 100%;
+  /* define o espaço ocupado pelos itens dentro do header(basicamente um bloco dentro da div header utilizado para colocar os itens, uso 100% porque quero utilizar a linha inteira)*/
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.search-box {
+  padding: 10px;
+  height: 60px;
+  border-radius: 40px;
+}
+
+.search-btn {
+  color: #4399fc;
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #353b48;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 2s;
+}
+
+.search-txt {
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: #23ff00;
+  font-size: 16px;
+  transition: 0.4s;
+  line-height: 40px;
+  width: 0px;
+}
+
+.search-box:hover>.search-txt {
+  width: 240px;
+  padding: 0 6px;
+}
+
+.search-box:hover>.search-btn {
+  background: white;
+}
+
+/* Header termina aqui */
+/*body começa aqui*/
+.icones {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.icones_jogos {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.titulo1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.titulo1 img {
+  width: 25%;
+}
+
+.conteudo {
+  width: 95%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.titulo_texto {
+  text-align: center;
+  margin-bottom: 1%;
+}
+
+.conteudo_texto {
+  text-align: justify;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.titulo2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.titulo2 img {
+  width: 50%;
+}
+
+.titulo3 img {
+  width: 20%;
+}
+
+.titulo_pokedex img {
+  margin-top: 1%;
+  width: 20%;
+}
+
+.icones img {
+  width: 90%;
+  transition: 0.3s ease-in-out;
+}
+
+.icones_jogos img {
+  width: 300px;
+  height: 300px;
+  transition: 0.3s ease-in-out;
+}
+
+.icones_jogos img {
+  width: 90%;
+  transition: 0.3s ease-in-out;
+}
+
+.icones_jogos:hover img {
+  transform: scale(0.9);
+}
+
+.icones:hover img {
+  transform: scale(0.9);
+}
+
+.descricao_pokemon {
+  display: flex;
+  justify-content: space-around;
+  height: auto;
+  align-items: center;
+  margin-left: 3%;
+  margin-right: 3%;
+  background-color: #ffd634;
+  border-radius: 50px;
+  border: #306db3 solid 10px;
+}
+
+.nome_icone {
+  display: flex;
+  justify-content: space-around;
+  height: 40vh;
+  align-items: center;
+  margin-left: 3%;
+  margin-right: 3%;
+  background-color: #ffd634;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-top: #306db3 solid 10px;
+  border-left: #306db3 solid 10px;
+  border-right: #306db3 solid 10px;
+}
+
+.nome_icone2 {
+  display: flex;
+  justify-content: space-around;
+  height: 40vh;
+  align-items: center;
+  margin-left: 3%;
+  margin-right: 3%;
+  background-color: #ffd634;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-bottom: #306db3 solid 10px;
+  border-left: #306db3 solid 10px;
+  border-right: #306db3 solid 10px;
+}
+
+.nome_icone h1 {
+  text-align: center;
+}
+
+.nome_icone_jogos {
+  display: flex;
+  justify-content: space-around;
+  height: 40vh;
+  align-items: center;
+  margin-left: 3%;
+  margin-right: 3%;
+  background-color: #ffd634;
+  border-radius: 50px;
+  border: #306db3 solid 10px;
+}
+
+.todo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.principal {
+  width: 80%;
+  background-color: #235c9c;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 50px;
+}
+
+.sprites_esquerda {
+  width: 10%;
+  margin-top: 50px;
+}
+
+.sprites_esquerda img {
+  display: block;
+  margin: auto;
+  margin-bottom: 150px;
+}
+
+.sprites_direita {
+  width: 10%;
+  margin-top: 100px;
+}
+
+.sprites_direita img {
+  display: block;
+  margin: auto;
+  margin-bottom: 150px;
+}
+
+
+
+
+/*body acaba aqui*/
+/* Footer comeca aqui */
+
+.footer {
+  bottom: 0%;
+}
+
+.rodape {
+  width: 100%;
+  height: 150px;
+  background-color: #333;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.foot1 {
+  width: 30%;
+  height: 100%;
+  color: #CCC;
+}
+
+.foot2 {
+  width: 30%;
+  height: 100%;
+  color: #CCC;
+}
+
+.foot3 {
+  width: 30%;
+  height: 100%;
+  color: #CCC;
+}
+
+a {
+  color: inherit;
+}
+
+.criadores {
+  width: 25%;
+  justify-content: center;
+  position: absolute;
+}
+
+.cadastro {
+  height: auto;
+  width: 100%;
+  margin-right: 30%;
+  margin-left: 30%;
+  background-color: #317ed6;
+  border-radius: 50px;
+  border: #333 10px solid;
+  justify-content: center;
+}
+
+.conteudo_cadastro {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.body_cadastro {
+  background: #ffd634;
+}
+
+.formulario {
+  position: unset;
+  font-size: medium;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin: auto;
+}
+
+.preenchaImagem {
+  width: 100%;
+}
+
+.nomeImagem {
+  width: 50%;
+}
+
+.emailImagem {
+  width: 25%;
+}
+
+.senhaImagem {
+  width: 100%;
+}
+
+.buttonEnviar {
+  width: 30%;
+  background-color: #ffd634;
+}
+
+.buttonEnviar img {
+  width: 100%;
+}
+
+.tamanhoInput input {
+  width: 100%;
+  height: 50px;
+}
+
+.linkLogin {
+  color: #ffd634;
+}
+
+.senha2Imagem {
+  width: 25%;
+}

@@ -1,0 +1,18 @@
+.Titulo{
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Texto{
+    text-indent: 13px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.div_img{
+    justify-content: center;
+    display: flex;
+    width: 100%;
+}
+.imgs{
+    width: 50%;
+}
