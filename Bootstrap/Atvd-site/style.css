@@ -1,0 +1,173 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #f8f1e7;
+    /* bege claro */
+    color: #0a2d3c;
+    /* azul escuro */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.navbar {
+    background-color: #0a2d3c !important;
+    border-bottom: 1px solid #e95a2c;
+}
+
+.navbar-brand img {
+    height: 60px;
+    width: auto;
+}
+
+.nav-link {
+    color: #f8f1e7 !important;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #e95a2c !important;
+}
+
+.carousel-item {
+    transition: transform 1.5s ease-in-out;
+    height: 400px;
+    background: #f8f1e7;
+}
+
+.carousel-item img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(20%) brightness(50%);
+}
+
+.card {
+    border: none;
+    border-radius: 16px;
+    background-color: #fff;
+    color: #0a2d3c;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    object-fit: contain;
+    height: 180px;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #0a2d3c;
+}
+
+.card-text {
+    font-size: 0.95rem;
+    color: #0a2d3c;
+}
+
+.form-control {
+    border-radius: 8px;
+    transition: border 0.3s;
+}
+
+.form-control:focus {
+    border-color: #ffc107;
+    /* cor da borda ao focar */
+    box-shadow: none;
+    /* remove sombra padrão do Bootstrap */
+}
+
+.btn-primary,
+.btn-custom {
+    background-color: #e95a2c;
+    border: none;
+    color: #f8f1e7;
+    font-weight: 500;
+    transition: background 0.2s;
+}
+
+.btn-primary:hover,
+.btn-custom:hover {
+    background-color: #c94b23;
+}
+
+/* Contato */
+.contact-info {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: #0a2d3c;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-weight: 700;
+}
+
+footer {
+    background-color: #0a2d3c;
+    color: #f8f1e7;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer a {
+    color: #e95a2c;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.modal-body {
+    width: 400px;
+    margin: auto;
+    color: #0a2d3c;
+}
+
+.modal-footer .btn-outline-secondary {
+    color: #0a2d3c;
+    border-color: #e95a2c;
+}
+
+.modal-footer .btn-outline-secondary:hover {
+    background-color: #e95a2c;
+    color: #f8f1e7;
+}
